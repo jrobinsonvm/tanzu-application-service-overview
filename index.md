@@ -179,8 +179,7 @@ EXPOSE 3306
 ![image](https://user-images.githubusercontent.com/73367284/158701336-15d40150-ce4f-432b-9036-f9ee9b069386.png)
 
 
-https://tanzu.vmware.com/solutions-hub
-
+[Read more...](https://tanzu.vmware.com/solutions-hub)
 
 <br/>
 
