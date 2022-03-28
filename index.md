@@ -211,7 +211,7 @@ EXPOSE 3306
 <br/>
 <br/>
 
-## How does this differ from Cloud Foundry?
+## How does TAS differ from Cloud Foundry?
 
 ![image](https://user-images.githubusercontent.com/73367284/158703228-bcf8733a-6c78-40ae-85ce-a21fafddd1d9.png)
 
@@ -220,6 +220,13 @@ EXPOSE 3306
 <br/>
 <br/>
 
+
+## Tanzu Application Service Deployment Reference Architecture 
+
+![image](https://user-images.githubusercontent.com/73367284/160474128-716ceb8f-8685-448b-a384-d31fb0eb0633.png)
+
+<br/> 
+<br/>
 
 
 ## Automated Management and Upgrades for VMware Tanzu Application Service Deployments
