@@ -239,9 +239,20 @@ EXPOSE 3306
 <br/>
 
 
-## 
+## How TAS for VMs Maintains Updated Routing Tables
 
 ![image](https://user-images.githubusercontent.com/73367284/160538618-d091e08c-4879-497a-b141-9c0659501928.png)
+
+#### The following process describes how a router obtains information about routes for an app running on TAS for VMs:
+
+- The Cloud Controller component sends app route information to Diego BBS. For HTTP routing, route information includes the host and path of an external URL, as shown in the format of the router.register message in the Gorouter documentation on GitHub. For TCP routing, route information includes the route port on which the TCP connection was received; for more information, see the Routing API documentation on GitHub.
+
+- Diego BBS coordinates the back end IP address and port where each instance of the app runs. When queried by the route emitter, the BBS sends this information along with Cloud Controller’s app route information to the route emitter on the Diego cell where instances of the app are located.
+
+- If a route is HTTP, the route emitter on the Diego cells sends app route, IP, and port information to NATS, which then sends it to the Gorouter. If a route is TCP, the route emitter sends that information to the Routing API, which then sends it to the TCP router.
+
+- The Gorouter and TCP router use the route, IP, and port information from the route emitter to map incoming app requests to back end app instance locations.
+
 
 <br/>
 
