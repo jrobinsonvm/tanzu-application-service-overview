@@ -278,6 +278,18 @@ EXPOSE 3306
 <br/>
 <br/>
 
+<br/>
+
+## Securing credentials made easy 
+![image](https://user-images.githubusercontent.com/73367284/160645296-14f4ee06-9319-477c-a3ae-4b5236f3c398.png)
+
+- CredHub supports different types of credentials to simplify generating and managing multi-part credentials. For example, a TLS certificate contains three parts: the root certificate authority (CA), the certificate, and the private key. CredHub supports all three parts, which helps keep connection requests from being rejected erroneously.
+
+<br/>
+
+<br/>
+<br/>
+<br/>
 
 
 ## Tanzu Application Service Deployment Models 
