@@ -195,20 +195,11 @@ EXPOSE 3306
 
 <br/>
 
-## Observability within Tanzu Application Service
-
-![image](https://user-images.githubusercontent.com/73367284/158702065-c94d26cf-4ba9-4eb8-82ad-01d2f733fab6.png)
-
-<br/>
-<br/>
 <br/>
 
-## Multi-Tenancy with Tanzu Application Service 
+-----
 
-![image](https://user-images.githubusercontent.com/73367284/158702439-fed2501d-b063-43f4-b87a-0cfb4c368b0c.png)
-
-<br/>
-<br/>
+## Day 2 - The Operator's Experience 
 <br/>
 
 ## How does TAS differ from Cloud Foundry?
@@ -219,7 +210,6 @@ EXPOSE 3306
 <br/>
 <br/>
 <br/>
-
 
 ## Tanzu Application Service Deployment Reference Architecture 
 
@@ -265,6 +255,26 @@ EXPOSE 3306
 
 <br/>
 <br/>
+
+
+
+## Observability within Tanzu Application Service
+
+![image](https://user-images.githubusercontent.com/73367284/158702065-c94d26cf-4ba9-4eb8-82ad-01d2f733fab6.png)
+
+<br/>
+<br/>
+<br/>
+
+## Multi-Tenancy with Tanzu Application Service 
+
+![image](https://user-images.githubusercontent.com/73367284/158702439-fed2501d-b063-43f4-b87a-0cfb4c368b0c.png)
+
+<br/>
+<br/>
+<br/>
+
+
 
 ## BOSH was built for Cloud Foundry  
 
