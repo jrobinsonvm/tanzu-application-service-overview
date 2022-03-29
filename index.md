@@ -229,13 +229,34 @@ EXPOSE 3306
 <br/>
 
 
-## Automated Management and Upgrades for VMware Tanzu Application Service Deployments
+## External Client Routing Request Flow  
+
+
+![image](https://user-images.githubusercontent.com/73367284/160528048-2727f490-1ec2-4da3-b3c8-bd8ca62b5c9e.png)
+
+#### The following process describes how an external client makes a request to an app running on TAS for VMs:
+
+- The external client sends its request.
+
+- Your DNS service sends the request to the HTTP or TCP load balancer based on the prefix of the DNS name in the client request, such as http in http.example.com.
+
+- The load balancer sends the request to the load balancer’s corresponding router.
+
+- The router sends the request to the app.
+
+
+<br/>
+<br/>
+
+
+## Automated Management and Upgrades using Ops Manager 
 
 <img width="1660" alt="image" src="https://user-images.githubusercontent.com/73367284/158706446-3208cfe3-44f0-4954-8f85-d093e3a38c41.png">
 
 
 <br/>
 <br/>
+
 
 
 ## Application Autoscaler  
