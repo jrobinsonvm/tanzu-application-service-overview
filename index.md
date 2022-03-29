@@ -265,6 +265,13 @@ EXPOSE 3306
 <img width="1660" alt="image" src="https://user-images.githubusercontent.com/73367284/158706446-3208cfe3-44f0-4954-8f85-d093e3a38c41.png">
 
 
+### LifeCycle Management of Tanzu Application Service
+#### ( Including Installing, Upgrading, Patching and overall maintenance )
+- Linux and Windows Operating Systems (Diego Cells) 
+- All Services (Messaging, Databases, Caching, etc.) 
+- Application Buildpacks (Apps) 
+
+
 <br/>
 <br/>
 
