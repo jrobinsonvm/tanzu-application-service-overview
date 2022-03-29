@@ -186,15 +186,6 @@ EXPOSE 3306
 
 <br/>
 
-
-## Tanzu Application Service Deployment Models 
-
-![image](https://user-images.githubusercontent.com/73367284/158701908-daae94b4-69c0-40dc-98fc-41356cc300de.png)
-
-<br/>
-
-<br/>
-
 <br/>
 
 -----
@@ -289,11 +280,14 @@ EXPOSE 3306
 
 
 
-## Application Autoscaler  
+## Tanzu Application Service Deployment Models 
 
-<img width="794" alt="image" src="https://user-images.githubusercontent.com/73367284/158706724-64b6ca64-7f0a-43f9-b8ea-aa4642a773e4.png">
+![image](https://user-images.githubusercontent.com/73367284/158701908-daae94b4-69c0-40dc-98fc-41356cc300de.png)
 
 <br/>
+
+<br/>
+
 <br/>
 
 
@@ -305,6 +299,14 @@ EXPOSE 3306
 <br/>
 <br/>
 <br/>
+
+## Application Autoscaler  
+
+<img width="794" alt="image" src="https://user-images.githubusercontent.com/73367284/158706724-64b6ca64-7f0a-43f9-b8ea-aa4642a773e4.png">
+
+<br/>
+<br/>
+
 
 ## Multi-Tenancy with Tanzu Application Service 
 
