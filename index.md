@@ -272,7 +272,7 @@ EXPOSE 3306
 ## Cloud Native Security 
 ![image](https://user-images.githubusercontent.com/73367284/160543427-46bb7d77-e533-4ce4-b718-ebe3fb11cb7e.png)
 
-### With Operations Manager, enterprises can repave every virtual machine (VM) in their data center from a known good state every few hours without application downtime. 
+- With Operations Manager, enterprises can repave every virtual machine (VM) in their data center from a known good state every few hours without application downtime. 
 
 <br/>
 <br/>
@@ -295,6 +295,9 @@ EXPOSE 3306
 ## Tanzu Application Service Deployment Models 
 
 ![image](https://user-images.githubusercontent.com/73367284/158701908-daae94b4-69c0-40dc-98fc-41356cc300de.png)
+
+- Blue-green deployment is a technique that reduces downtime and risk by running two identical production environments called Blue and Green.  At any time, only one of the environments is live, with the live environment serving all production traffic.
+
 
 <br/>
 
