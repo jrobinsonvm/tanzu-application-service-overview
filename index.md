@@ -278,6 +278,14 @@ EXPOSE 3306
 <br/>
 
 
+## Cloud Native Security 
+![image](https://user-images.githubusercontent.com/73367284/160543427-46bb7d77-e533-4ce4-b718-ebe3fb11cb7e.png)
+
+### With Operations Manager, enterprises can repave every virtual machine (VM) in their data center from a known good state every few hours without application downtime. 
+
+<br/>
+<br/>
+<br/>
 
 
 
